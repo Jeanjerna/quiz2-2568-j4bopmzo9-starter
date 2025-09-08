@@ -1,27 +1,27 @@
 import { useState } from "react";
 import {
-  Modal,
+  // Modal,
   TextInput,
   NumberInput,
   Select,
   Button,
-  Stack,
+  // Stack,
   Group,
   Box,
   type ComboboxItem,
 } from "@mantine/core";
-import { v4 as uuidv4 } from "uuid";
+// import { v4 as uuidv4 } from "uuid";
 
-type AddFoodModalProps = {
-  opened: boolean;
-  onClose: () => void;
-  onAdd: (
-    name: string,
-    price: number | string,
-    quantity: number | string,
-    category: string
-  ) => void;
-};
+// type AddFoodModalProps = {
+//   opened: boolean;
+//   onClose: () => void;
+//   onAdd: (
+//     name: string,
+//     price: number | string,
+//     quantity: number | string,
+//     category: string
+//   ) => void;
+// };
 
 export default function AddFoodModal() {
   const [name, setName] = useState<string>("");
@@ -31,13 +31,13 @@ export default function AddFoodModal() {
 
   const handleSubmit = () => {
     if (name.trim()) {
-      const FoodItem = {
-        id: uuidv4(),
-        name: name,
-        price: price,
-        quantity: quantity,
-        category: category,
-      };
+      // const FoodItem = {
+      //   id: uuidv4(),
+      //   name: name,
+      //   price: price,
+      //   quantity: quantity,
+      //   category: category,
+      // };
     }
   };
 
@@ -53,9 +53,9 @@ export default function AddFoodModal() {
     setQuantity(Number(event.val_number));
   };
 
-  const categoryChanged = (event: any) => {
-    setCategory(event.target.value);
-  };
+  // const categoryChanged = (event: any) => {
+  //   setCategory(event.target.value);
+  // };
 
   // หากต้องการแปง type string เป็น type number สามารถดูตัวอย่างนี้ได้
   let val_number: number = Number("500.0");
