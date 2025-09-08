@@ -6,7 +6,7 @@
 
 ชื่อ-สกุล : นายชัยชาญ ชายสัก
 
-Link: (https://quiz2-2568-j4bopmzo9-starter-kwpz.vercel.app/)
+Link vercel : (https://quiz2-2568-j4bopmzo9-starter-kwpz.vercel.app/)
 
 ---
 
