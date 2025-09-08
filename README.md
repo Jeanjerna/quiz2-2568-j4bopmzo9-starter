@@ -6,6 +6,8 @@
 
 ชื่อ-สกุล : นายชัยชาญ ชายสัก
 
+Link: (https://quiz2-2568-j4bopmzo9-starter-kwpz.vercel.app/)
+
 ---
 
 หลังจากการ Fork และ Clone repository นี้แล้ว ให้เปิดโฟลเดอร์ด้วย VSCode และรันคำสั่งต่อไปนี้ใน terminal:
